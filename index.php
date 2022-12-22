@@ -1,33 +1,27 @@
-<nav>
-    <p>mass effect fansite</p>
+<?php require('nav.php') ?>
 
-    <ul>
-        <li><a href="http://">link</a></li>
-        <li><a href="http://">link</a></li>
-        <li><a href="http://">link</a></li>
-    </ul>
-    
-</nav>
+<?php require('header.php') ?>
 
-<?php include "header.php"; ?>
+<?php
 
-<header style="background-image: url('resources/images/sunrise.jpg');
-background-size: 100% 100%;">
+$heading = 'Welcome';
 
-    <img src="resources/images/N7logo.jpg" alt="logo">
+?>
 
-    <h1>welcome</h1>
-    
-</header>
+<?php require('banner.php') ?>
 
-<div class="content" style="background-image: url('resources/images/space.webp');
+<div class="container" style="background-image: url('resources/images/space.webp');
 background-size: cover;">
 
 <main>
 
-<h2>main</h2>
+<div class="content">
+
+<h2>intro</h2>
+
+</div>
 
 </main>
 </div>
 
-<?php include "footer.php"; ?>
+<?php require('footer.php') ?>

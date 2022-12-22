@@ -7,5 +7,8 @@
     <title>Mass Effect Fan</title>
     <link rel="stylesheet" href="resources/css/reset.css">
     <link rel="stylesheet" href="resources/css/styles.css">
+
+    <link rel="preconnect" href="https://fonts.bunny.net">
+<link href="https://fonts.bunny.net/css?family=chonburi:400" rel="stylesheet" />
 </head>
 <body>

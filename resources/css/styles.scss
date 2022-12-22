@@ -20,6 +20,10 @@ html, body {
     height: 100%;
 }
 
+body {
+    font-family: 'Chonburi', display;
+}
+
 // Header---------------
 
 header {
@@ -29,7 +33,7 @@ header {
 
     h1 {
         margin: 0 auto;
-        font-size: 70px;
+        font-size: 60px;
         text-transform: capitalize;
         color: white;
         text-shadow: 2px 2px 2px red;
@@ -48,7 +52,7 @@ nav {
     p {
         margin-left: 10px;
         font-size: 20px;
-        margin-top: 10px;
+        margin-top: 5px;
     }
 
     ul {
@@ -59,7 +63,7 @@ nav {
 
             a {
                 text-decoration: none;
-                font-size: 20px;
+                font-size: 15px;
                 padding: 10px;
                 display: block;
                 color: black;
@@ -77,14 +81,13 @@ nav {
 
 // Content---------------
 
-.content {
+.container {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
 main {
-    display: flex;
     flex: 1;
 
     background-color: rgba(gray, 20%);
@@ -92,9 +95,17 @@ main {
 
     h2 {
         @include text;
-        font-size: 35px;
+        font-size: 30px;
         text-decoration: underline;
     }
+
+    p {
+        @include text;
+    }
+}
+
+.content {
+    margin: 50px;
 }
 
 // Footer----------------

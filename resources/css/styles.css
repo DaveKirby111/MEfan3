@@ -17,6 +17,10 @@ html, body {
   height: 100%;
 }
 
+body {
+  font-family: "Chonburi", display;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -24,7 +28,7 @@ header {
 }
 header h1 {
   margin: 0 auto;
-  font-size: 70px;
+  font-size: 60px;
   text-transform: capitalize;
   color: white;
   text-shadow: 2px 2px 2px red;
@@ -38,7 +42,7 @@ nav {
 nav p {
   margin-left: 10px;
   font-size: 20px;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 nav ul {
   margin-left: auto;
@@ -48,7 +52,7 @@ nav ul li {
 }
 nav ul li a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
   padding: 10px;
   display: block;
   color: black;
@@ -59,24 +63,30 @@ nav ul li a:hover {
   text-shadow: 2px 2px 2px red;
 }
 
-.content {
+.container {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 
 main {
-  display: flex;
   flex: 1;
   background-color: rgba(128, 128, 128, 0.2);
   color: white;
 }
 main h2 {
   text-transform: capitalize;
-  margin: 20px;
   margin-bottom: 20px;
-  font-size: 35px;
+  font-size: 30px;
   text-decoration: underline;
+}
+main p {
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.content {
+  margin: 50px;
 }
 
 footer {
