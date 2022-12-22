@@ -9,10 +9,6 @@ TABLE OF CONTENTS:
 5. Mobile
 
 ---------------*/
-header, nav, content, main, footer {
-  border: 2px solid black;
-}
-
 * {
   box-sizing: border-box;
 }
@@ -28,30 +24,39 @@ header {
 }
 header h1 {
   margin: 0 auto;
-  font-size: 50px;
+  font-size: 70px;
   text-transform: capitalize;
+  color: white;
+  text-shadow: 2px 2px 2px red;
 }
 
 nav {
   display: flex;
   text-transform: capitalize;
+  background-image: linear-gradient(goldenrod, gold);
 }
 nav p {
   margin-left: 10px;
   font-size: 20px;
+  margin-top: 10px;
 }
 nav ul {
   margin-left: auto;
 }
 nav ul li {
-  display: inline;
+  display: inline-block;
 }
 nav ul li a {
   text-decoration: none;
   font-size: 20px;
+  padding: 10px;
+  display: block;
+  color: black;
 }
 nav ul li a:hover {
-  background-color: red;
+  background-color: black;
+  color: white;
+  text-shadow: 2px 2px 2px red;
 }
 
 .content {
@@ -63,14 +68,41 @@ nav ul li a:hover {
 main {
   display: flex;
   flex: 1;
+  background-color: rgba(128, 128, 128, 0.2);
+  color: white;
 }
 main h2 {
-  font-size: 25px;
-  text-decoration: underline;
   text-transform: capitalize;
+  margin: 20px;
+  margin-bottom: 20px;
+  font-size: 35px;
+  text-decoration: underline;
 }
 
 footer {
-  padding: 10px;
+  display: flex;
   text-transform: capitalize;
+  background-image: linear-gradient(goldenrod, gold);
+}
+
+.contact {
+  border-right: 2px solid yellow;
+  padding: 20px;
+}
+.contact a {
+  text-decoration: none;
+  color: black;
+}
+.contact a:hover {
+  color: white;
+  text-shadow: 2px 2px 2px red;
+}
+
+.info {
+  margin-left: auto;
+  border-left: 2px solid yellow;
+  padding: 20px;
+}
+.info p {
+  font-size: 10px;
 }/*# sourceMappingURL=styles.css.map */
